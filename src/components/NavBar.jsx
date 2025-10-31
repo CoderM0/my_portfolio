@@ -108,7 +108,7 @@ export default function NavBar() {
 
               <button
                 onClick={toggleTheme}
-                className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-yellow-500 dark:hover:text-yellow-400 transition-all duration-300 transform hover:scale-110 hover:bg-gray-200 dark:hover:bg-gray-700"
+                className="p-2 rounded-lg hidden bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-yellow-500 dark:hover:text-yellow-400 transition-all duration-300 transform hover:scale-110 hover:bg-gray-200 dark:hover:bg-gray-700"
                 aria-label="Toggle Theme"
               >
                 {theme === "light" ? (
@@ -179,7 +179,7 @@ export default function NavBar() {
 
                 <button
                   onClick={toggleTheme}
-                  className="p-3 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-yellow-500 dark:hover:text-yellow-400 transition-colors duration-300"
+                  className="p-3 hidden rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-yellow-500 dark:hover:text-yellow-400 transition-colors duration-300"
                 >
                   {theme === "light" ? <FaMoon /> : <FaSun />}
                 </button>
