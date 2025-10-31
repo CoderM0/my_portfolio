@@ -1,0 +1,10 @@
+id: 1,
+    title: "Portfolio Website",
+    thumbnail: "/images/projectone/1.png",
+    github: "https://github.com/yourusername/portfolio",
+    gallery: [
+      "/images/projectone/2.png",
+      "/images/projectone/3.png",
+      "/images/projectone/4.png",
+      "/images/projectone/5.png",
+    ],
