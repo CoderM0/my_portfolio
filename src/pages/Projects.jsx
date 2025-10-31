@@ -155,7 +155,7 @@ const projects = [
     description:
       "Comprehensive healthcare management system with seven distinct user roles including medical professionals, patients, and administrative staff. Built with modern full-stack technologies for optimal performance.",
     thumbnail: "/images/med-care-project/admin/1.png",
-    github: "https://github.com/yourusername/med-care",
+    github: "https://github.com/CoderM0/medical_care_v3",
     liveDemo: "",
     technologies: ["Laravel", "React", "MySQL", "Tailwind CSS"],
     techIcons: [SiLaravel, SiReact, SiMysql, SiTailwindcss],
